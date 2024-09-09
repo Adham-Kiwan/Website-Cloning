@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: rgb(0, 190, 0);
+    --border-radius: 4px;
+    --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 239, 220);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 30px;
+    background-color: white;
+    padding: 30px 80px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+form input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 15px;
+    background: linear-gradient(135deg, var(--primary-color) 25%, rgb(50, 205, 50) 50%, rgb(0, 190, 0) 75%);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+a {
+    color: rgb(21, 17, 255);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    padding: 5px;
+}
+
+.icon img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type="email"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+}
+input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="email"]:focus, input[type="text"]:focus {
+    border: 2px solid #000000; 
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.banner {
+    font-size: 45px;
+    font-weight: bold;
+}
+.social {
+    display: flex;
+    gap: 30px;
+}
+i {
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);}
+.social-text {
+    font-weight: bold;
+}
