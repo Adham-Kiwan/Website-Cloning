@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Manrope", sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.section-1 {
+    display: flex;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    position: fixed;
+    width: 100%;
+    
+
+    animation-name: headerScrollAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timeline: scroll(block);
+}
+
+@keyframes headerScrollAnimation {
+    0% {
+      background-color: rgb(255, 255, 255,0);
+    }
+
+    10% {
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+    }
+    100% {
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+
+    }
+
+  }
+.nav {
+    display: flex;
+    gap: 30px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+.right-nav {
+    display: flex;
+    gap: 30px
+}
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.left {
+    width: 50%;
+}
+.left img {
+    width: 100%;
+}
+main {
+    display: flex;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 40px;
+    padding-left : 50px;
+    padding-right : 50px;
+    width: 50%;
+}
+.right h1 {
+    font-size: 80px;
+    font-family: "Manrope", sans-serif;
+}
+.right button {
+    padding: 15px 25px;
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+

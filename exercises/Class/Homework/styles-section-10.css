@@ -1,0 +1,45 @@
+.section-10 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.section-10-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.section-10-div-title {
+    width: 60%;
+}
+.section-10-div h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.section-10-div hr {
+    width: 10%;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+.section-10-div input{
+    padding: 18px 300px 18px 30px;
+}
+.section-10 button {
+    padding: 12px 35px;
+    color: white;
+    background-color: black;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 550;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.section-10 button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

@@ -1,0 +1,41 @@
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-4-divs {
+    display: flex;
+    gap: 170px;
+}
+.section-4-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.section-4-top hr {
+    border: 1px solid white;
+    opacity: 50%;
+    width: 20%;
+}
+.section-4-top h1 {
+    font-size: 55px;
+}
+.section-4-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+.section-4-cards i {
+    font-size: 40px;
+}
+.section-4-cards p {
+    font-size: 20px;
+}

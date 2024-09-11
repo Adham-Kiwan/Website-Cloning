@@ -1,0 +1,30 @@
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    background-color: #8c8c8c0f;
+}
+hr {
+    width: 10%;
+    border: 0.5px solid rgb(0, 0, 0, 0.5);
+}
+.section-2-row {
+    display: flex;
+    gap: 30px;
+    padding: 0px 100px;
+}
+.div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.section-2 h1 {
+    font-size: 50px;
+}
+.div i {
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+.section-8 {
+    display: flex;
+    
+}
+.section-8-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 50px 100px 150px;
+    background-color: #8c8c8c0f;
+}
+.section-8-left h1 {
+    font-size: 60px;
+}
+.section-8-left button {
+    padding: 12px 30px;
+    color: white;
+    background-color: black;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.section-8-left button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

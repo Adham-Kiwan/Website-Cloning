@@ -1,0 +1,90 @@
+.section-12 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    margin-bottom: 300px;
+}
+.section-12-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-12-top h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.section-12-line {
+    width: 25%;
+    border: 0.5px solid rgb(0, 0, 0, 0.2);
+}
+.section-12-bottom {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    padding: 50px;
+    margin-left: 170px;
+}
+.section-12-bottom-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.section-12-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.section-12-card i {
+    font-size: 35px;
+}
+.section-12-card p {
+    font-size: 20px;
+}
+.section-12-bottom-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+.section-12-bottom-form input {
+    padding: 15px 45px 15px 15px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.section-12-bottom-form-upper {
+    display: flex;
+    justify-content: space-between;
+}
+.section-12-bottom-form-upper input {
+    padding: 15px 110px 15px 15px;
+}
+.section-12-bottom-form button {
+    padding: 12px 30px;
+    color: white;
+    background-color: black;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.section-12-bottom-form button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.section-12-button {
+    display: flex;
+    justify-content: center;
+}
+ .section-12-text input {
+    width: 100%;
+    padding: 25px 45px 100px 25px;
+}
+
+

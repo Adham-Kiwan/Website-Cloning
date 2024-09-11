@@ -1,0 +1,31 @@
+.section-3 {
+    display: flex;
+    height: 100vh;
+}
+.section-3-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 150px;
+    padding-top: 80px;
+    width: 100%;
+}
+.section-3-portion {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-3-portion hr {
+    width: 10%;
+    border: 1px solid black;
+    opacity: 20%;
+}
+.section-3-portion h1 {
+    font-size: 60px;
+}
+.section-3-portion h2 {
+    font-size: 20px;
+}
+.section-3-portion i {
+    font-size: 40px;
+}
